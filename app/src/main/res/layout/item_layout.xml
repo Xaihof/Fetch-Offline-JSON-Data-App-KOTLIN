@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/textViewUserNameValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="TextView"
+            app:layout_constraintBottom_toTopOf="@+id/textViewColorValue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewUserNameKey"
+            app:layout_constraintTop_toBottomOf="@+id/textViewFatherNameValue" />
+
+        <TextView
+            android:id="@+id/textViewPasswordValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewPasswordKey"
+            app:layout_constraintTop_toBottomOf="@+id/textViewColorValue" />
+
+        <TextView
+            android:id="@+id/textViewIdKey"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="ID:"
+            app:layout_constraintBottom_toTopOf="@+id/textViewNameKey"
+            app:layout_constraintEnd_toStartOf="@+id/textViewIdValue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewIdValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textViewNameValue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewIdKey"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewPasswordKey"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textViewPasswordValue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewColorKey" />
+
+        <TextView
+            android:id="@+id/textViewNameKey"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            app:layout_constraintBottom_toTopOf="@+id/textViewFatherNameKey"
+            app:layout_constraintEnd_toStartOf="@+id/textViewNameValue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewIdKey" />
+
+        <TextView
+            android:id="@+id/textViewNameValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="TextView"
+            app:layout_constraintBottom_toTopOf="@+id/textViewFatherNameValue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewNameKey"
+            app:layout_constraintTop_toBottomOf="@+id/textViewIdValue" />
+
+        <TextView
+            android:id="@+id/textViewFatherNameKey"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Father Name:"
+            app:layout_constraintBottom_toTopOf="@+id/textViewUserNameKey"
+            app:layout_constraintEnd_toStartOf="@+id/textViewFatherNameValue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewNameKey" />
+
+        <TextView
+            android:id="@+id/textViewFatherNameValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="TextView"
+            app:layout_constraintBottom_toTopOf="@+id/textViewUserNameValue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewFatherNameKey"
+            app:layout_constraintTop_toBottomOf="@+id/textViewNameValue" />
+
+        <TextView
+            android:id="@+id/textViewUserNameKey"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="User Name:"
+            app:layout_constraintBottom_toTopOf="@+id/textViewColorKey"
+            app:layout_constraintEnd_toStartOf="@+id/textViewUserNameValue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewFatherNameKey" />
+
+        <TextView
+            android:id="@+id/textViewColorKey"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Color:"
+            app:layout_constraintBottom_toTopOf="@+id/textViewPasswordKey"
+            app:layout_constraintEnd_toStartOf="@+id/textViewColorValue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewUserNameKey" />
+
+        <TextView
+            android:id="@+id/textViewColorValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="TextView"
+            app:layout_constraintBottom_toTopOf="@+id/textViewPasswordValue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewColorKey"
+            app:layout_constraintTop_toBottomOf="@+id/textViewUserNameValue" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

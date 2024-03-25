@@ -1,0 +1,60 @@
+{
+  "information": [
+    {
+      "id": "1",
+      "name": "Muhammad",
+      "fatherName": "Azeem",
+      "userName": "XAIHOF",
+      "color": "red",
+      "password": "abc"
+    },
+    {
+      "id": "2",
+      "name": "Abdullah",
+      "fatherName": "Azeem",
+      "userName": "XAIHOF",
+      "color": "green",
+      "password": "abc"
+    },
+    {
+      "id": "3",
+      "name": "Azeem",
+      "fatherName": "Azeem",
+      "userName": "XAIHOF",
+      "color": "blue",
+      "password": "abc"
+    },
+    {
+      "id": "4",
+      "name": "XAIHOF",
+      "fatherName": "Azeem",
+      "userName": "XAIHOF",
+      "color": "yellow",
+      "password": "abc"
+    },
+    {
+      "id": "5",
+      "name": "Abdullah",
+      "fatherName": "Azeem",
+      "userName": "XAIHOF",
+      "color": "green",
+      "password": "abc"
+    },
+    {
+      "id": "6",
+      "name": "Azeem",
+      "fatherName": "Azeem",
+      "userName": "XAIHOF",
+      "color": "blue",
+      "password": "abc"
+    },
+    {
+      "id": "7",
+      "name": "XAIHOF",
+      "fatherName": "Azeem",
+      "userName": "XAIHOF",
+      "color": "yellow",
+      "password": "abc"
+    }
+  ]
+}
